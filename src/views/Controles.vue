@@ -92,7 +92,7 @@
                     <div class="w-f md:flex px-4 mx-auto font-semibold font-heading space-x-12">
                       <input v-model="searchQuery" type="text" id="search-navbar" class="my-4 block w-5/6 p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Pesquisar Produto...">
                     </div>
-                    <a @click="trocarTela('produtos')" class="cursor-pointer block font-bold uppercase text-yellow-500 hover:underline">Eletrônicos</a>
+                     <!--<a @click="trocarTela('produtos')" class="cursor-pointer block font-bold uppercase text-yellow-500 hover:underline">Eletrônicos</a>-->
                     <button @click="logout" class="m-auto rounded-3xl bg-blue-600 hover:bg-blue-700 hover:shadow-xl uppercase rounded-lg px-8 py-2 text-gray-100 shadow-xl transition duration-150">Sair</button>
                   </div>
 
