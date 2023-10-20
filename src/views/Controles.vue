@@ -116,7 +116,7 @@
                             <img class="bg-white object-contain w-full rounded-md h-48 xl:h-72" :src="'https://raw.githubusercontent.com/ThiagoRazor/tela-produtos/main/src/assets/controles/'+ produto.id + '.bmp'" alt="T-Shirt">
                             <h2 class="font-bold w-14 text-center mt-4 rounded text-slate-600 bg-orange-300">Nº: {{ produto.id }}</h2>
                             <h4 class="mt-2 h-16 text-md font-medium text-gray-700 dark:text-gray-200 overflow-hidden">{{ produto.name }}</h4>
-                            <p :class=" {'text-red-500' : produto.preco == 0, 'text-blue-500': produto.preco > 0}" class="text-lg font-bold">R$ {{ produto.preco == 0 ? ' --.-- ' : Number(produto.preco).toFixed(2)}}</p>
+                            <!--<p :class=" {'text-red-500' : produto.preco == 0, 'text-blue-500': produto.preco > 0}" class="text-lg font-bold">R$ {{ produto.preco == 0 ? ' --.-- ' : Number(produto.preco).toFixed(2)}}</p>-->
 
                             <button v-if="produto.preco !== 0" @click="adicionarAoCarrinho(produto)" class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
