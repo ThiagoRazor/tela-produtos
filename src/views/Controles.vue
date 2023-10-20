@@ -63,9 +63,9 @@
                 <strong class="text-green-600">{{ item.quantidade }}</strong>
                 <span @click="adicionarItem(item)" class="cursor-pointer rounded-r bg-gray-100 py-1 px-3 duration-100 hover:bg-blue-500 hover:text-blue-50"> + </span>
               </div>
-              <div class="flex items-center space-x-4">
-                <p class="text-md">R${{ item.total.toFixed(2) }}</p>
-              </div>
+              <!--<div class="flex items-center space-x-4">
+                <p class="text-md">R${{ item.total.toFixed(2) }}</p> 
+              </div>-->
             </div>
           </div>
         </div>
